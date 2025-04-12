@@ -4,6 +4,7 @@
 # to run the python script
 
 run the script extract_company_name_v2.py:
+
 streamlit run extract_company_name_v2.py
 
 
