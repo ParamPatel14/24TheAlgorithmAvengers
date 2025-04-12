@@ -1,3 +1,12 @@
+# prerequisites
+1.install streamlit (pip install streamlit)
+
+# to run the python script
+
+run the script extract_company_name_v2.py:
+streamlit run extract_company_name_v2.py
+
+
 # News Scraping and Summarization System
 
 ## Overview
