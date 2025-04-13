@@ -6,7 +6,7 @@ import webScraping as ws
 # Configure the API key
 def configure_api():
     try:
-        api_key = "AIzaSyCVKGAOgmBiHXS3yKaC4oAff5_TF-zF8EI"  # Store your API key in environment variable
+        api_key = "GEMINI_API_KEY"  # Store your API key in environment variable
         if not api_key:
             raise ValueError("API key not found. Please set GEMINI_API_KEY environment variable.")
         genai.configure(api_key=api_key)
