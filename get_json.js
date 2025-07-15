@@ -46,7 +46,7 @@ const apiKey = process.env.API_KEY;
 const symbol = "IBM";
 const interval = "5min";
 
-const url = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=${apiKey}`;
+const url = `apikey`;
 // Set your desired file path
 const filePath = path.join(require("os").homedir(), "Desktop", "NewsSense", "stock_data.json");
 
